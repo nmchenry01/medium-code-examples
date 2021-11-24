@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  app:
+    container_name: python_sqlalchemy_and_concurrency_app
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/app
